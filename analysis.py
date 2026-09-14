@@ -8,7 +8,7 @@ warnings.filterwarnings("ignore")
 
 st.title("Data Analysis")
 
-data = pd.read_csv(r"data\clean.csv")
+data = pd.read_csv(r"clean.csv")
 
 st.subheader("Dataset")
 st.dataframe(data, use_container_width=True)
