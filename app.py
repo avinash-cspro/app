@@ -8,9 +8,9 @@ st.set_page_config(
 
 pages = {
     "Main": [
-        st.Page("pages/home.py", title="Home", icon="🏠"),
-        st.Page("pages/analysis.py", title="Data Analysis", icon="📊"),
-        st.Page("pages/model.py", title="Prediction", icon="🔮")]}
+        st.Page("home.py", title="Home", icon="🏠"),
+        st.Page("analysis.py", title="Data Analysis", icon="📊"),
+        st.Page("model.py", title="Prediction", icon="🔮")]}
 
 pg = st.navigation(pages)
 
