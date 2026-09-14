@@ -10,8 +10,8 @@ warnings.filterwarnings('ignore')
 
 st.title('Car Purchace Prediction')
 
-scaler=joblib.load(r'models\scaler.joblib')
-model=joblib.load(r'models\knn.joblib')
+scaler=joblib.load(r'scaler.joblib')
+model=joblib.load(r'knn.joblib')
 
 age=st.number_input("Enter your age",
                       min_value=18, max_value=80)
